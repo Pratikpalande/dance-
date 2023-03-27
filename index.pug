@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    title DANCE ACADEMY
+    style
+      include ../static/style.css
+  body
+  
+    nav#navbar  
+       
+        
+             ul 
+        
+                li #[a(href="/") HOME]
+                li #[a(href="/") ABOUT]
+                 li #[a(href="/") SEVICES]
+                   li #[a(href="/") ACADEMY INFO]
+                li #[a(href="/") CONTACT US]
+
+    section#introSection 
+        div DANCE ACADEMY 
+        div.small DANCE DIL SE 
+
+    section#MissionSection
+        h2 MOTIVATION
+        div#one.card 
+            h4  DANCE&DANCE 
+        div#two.card 
+            h4  DANCE&DANCE 
+        div#three.card 
+            h4  DANCE&DANCE 
+        
+    section#sponsorSection
+        h2 SPONSORS
+        div#sponsors 
+            img(src="/static/logo 1.jpg", alt="SPONSOR IMAGE")
+            img(src="/static/logo2.jpg", alt="SPONSOR IMAGE")
+            img(src="/static/logo3.jpg", alt="SPONSOR IMAGE")
+
+  
+    footer#footer 
+        | Copyright © 2020 DanceAcademy.
+    script
+      include ../static/script.js

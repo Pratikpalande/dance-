@@ -1,0 +1,32 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+     include ../static/style.css
+
+block content 
+   
+
+    section#introSection 
+        div DANCE ACADEMY 
+        
+        div.small DANCE DIL SE 
+
+    section#MissionSection
+        h2 MOTIVATION
+        div#one.card 
+            h4  DANCE&DANCE 
+        div#two.card 
+            h4  DANCE&DANCE 
+        div#three.card 
+            h4  DANCE&DANCE 
+        
+    section#sponsorSection
+        h2 SPONSORS
+        div#sponsors 
+            img(src="/static/logo 1.jpg", alt="SPONSOR IMAGE")
+            img(src="/static/logo2.jpg", alt="SPONSOR IMAGE")
+            img(src="/static/logo3.jpg", alt="SPONSOR IMAGE")
